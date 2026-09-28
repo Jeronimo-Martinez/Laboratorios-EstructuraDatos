@@ -1,3 +1,4 @@
+import bisect
 class NodoBPlus:
     def __init__(self, es_hoja=False):
         self.es_hoja = es_hoja
@@ -15,17 +16,16 @@ class ArbolBPlus:
         """Devuelve el PUNTERO al registro del estudiante, no el nodo."""
         actual = self.raiz
 
-        # 1. Navegar por los nodos internos usando claves y punteros a nodos hijos
+        # 1. Navegar por los nodos internos usando bisect_right en C
         while not actual.es_hoja:
-            i = 0
-            while i < len(actual.claves) and id_estudiante >= actual.claves[i]:
-                i += 1
+            i = bisect.bisect_right(actual.claves, id_estudiante)
             actual = actual.punteros[i]
 
-        # 2. En la hoja, ubicar la clave y retornar la referencia/puntero al dato
-        for i, clave in enumerate(actual.claves):
-            if clave == id_estudiante:
-                return actual.punteros[i]  # Devuelve la referencia al dato externo
+        # 2. En la hoja, ubicar la clave en O(log K) con bisect_left
+        i = bisect.bisect_left(actual.claves, id_estudiante)
+        if i < len(actual.claves) and actual.claves[i] == id_estudiante:
+            return actual.punteros[i]  # Devuelve la referencia al dato externo
+
         return None
 
     def insertar(self, id_estudiante, puntero_dato):
@@ -63,7 +63,7 @@ class ArbolBPlus:
             padre.punteros.insert(i + 1, nuevo_nodo)
         else:
             # En nodos internos: divide claves y PUNTEROS a otros nodos hijos
-            clave_promovida= hijo.claves[mid]
+            clave_promovida = hijo.claves[mid]
             nuevo_nodo.claves = hijo.claves[mid + 1:]
             nuevo_nodo.punteros = hijo.punteros[mid + 1:]
             hijo.claves = hijo.claves[:mid]
@@ -74,16 +74,14 @@ class ArbolBPlus:
 
     def _insertar_no_lleno(self, nodo, id_estudiante, puntero_dato):
         if nodo.es_hoja:
-            i = 0
-            while i < len(nodo.claves) and id_estudiante > nodo.claves[i]:
-                i += 1
+            # bisect_left determina el índice de inserción ordenada directamente
+            i = bisect.bisect_left(nodo.claves, id_estudiante)
             nodo.claves.insert(i, id_estudiante)
             nodo.punteros.insert(i, puntero_dato)  # Inserta únicamente el puntero al registro
         else:
-            i = len(nodo.claves) - 1
-            while i >= 0 and id_estudiante < nodo.claves[i]:
-                i -= 1
-            i += 1
+            # bisect_right determina instantáneamente el nodo hijo descendiente
+            i = bisect.bisect_right(nodo.claves, id_estudiante)
+
             if len(nodo.punteros[i].claves) == (2 * self.t - 1):
                 self._dividir_hijo(nodo, i)
                 if id_estudiante > nodo.claves[i]:

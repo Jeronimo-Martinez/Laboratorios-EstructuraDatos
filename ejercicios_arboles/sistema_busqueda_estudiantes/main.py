@@ -3,7 +3,7 @@ import time
 import random
 
 # Aumentar límite de recursión debido al comportamiento degenerado del ABB con datos ordenados
-sys.setrecursionlimit(200000)
+sys.setrecursionlimit(20000)
 
 from ArboolABB import ArbolABB
 from ArbolBplus import ArbolBPlus
@@ -15,12 +15,12 @@ def realizar_pruebas():
     # 1. GENERACIÓN DE DATOS
     # ---------------------------------------------------------
     print("Generando datos de estudiantes...")
-    estudiantes_aleatorios = generar_estudiantes(1000000, ordenado=False)
+    estudiantes_aleatorios = generar_estudiantes(10000, ordenado=False)
     estudiantes_ordenados = generar_estudiantes(10000, ordenado=True)
 
     # Extraer 100 IDs aleatorios para realizar las búsquedas sobre los mismos objetivos
     todos_los_ids = [e["id"] for e in estudiantes_aleatorios]
-    ids_busqueda = random.sample(todos_los_ids, 1000)
+    ids_busqueda = random.sample(todos_los_ids, 100)
 
     # ---------------------------------------------------------
     # 2. ESCENARIO A: IDs EN ORDEN ALEATORIO
@@ -92,13 +92,11 @@ def realizar_pruebas():
         _ = next((e for e in lista_ordenada if e["id"] == target_id), None)
     tiempo_lista_ordenado = time.perf_counter() - t_inicio
 
-
     # Búsqueda en ABB (Degenerado)
-    #t_inicio = time.perf_counter()
-    #for target_id in ids_busqueda:
-    #    _ = arbol_abb_ordenado.buscar(target_id)
-    #tiempo_abb_ordenado = time.perf_counter() - t_inicio
-
+    t_inicio = time.perf_counter()
+    for target_id in ids_busqueda:
+        _ = arbol_abb_ordenado.buscar(target_id)
+    tiempo_abb_ordenado = time.perf_counter() - t_inicio
 
     # Búsqueda en Árbol B+
     t_inicio = time.perf_counter()
@@ -107,7 +105,7 @@ def realizar_pruebas():
     tiempo_bplus_ordenado = time.perf_counter() - t_inicio
 
     print(f"Lista Nativa : {tiempo_lista_ordenado:.6f} segundos")
-    #(f"Árbol ABB    : {tiempo_abb_ordenado:.6f} segundos  <-- (Degenerado a O(N))")
+    print(f"Árbol ABB    : {tiempo_abb_ordenado:.6f} segundos  <-- (Degenerado a O(N))")
     print(f"Árbol B+     : {tiempo_bplus_ordenado:.6f} segundos  <-- (Mantiene O(log N))")
 
 
