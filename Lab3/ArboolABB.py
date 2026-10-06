@@ -54,3 +54,19 @@ class ArbolABB:
             resultado.append(actual.estudiante)
             self._inorden_recursivo(actual.derecho, resultado)
 
+    def buscar_rango(self, id_min, id_max):
+        """Retorna los estudiantes con id_min <= id <= id_max, ordenados por ID.
+        Inorden con poda: solo visita subarboles que pueden contener ids del rango."""
+        resultado = []
+        self._rango_recursivo(self.raiz, id_min, id_max, resultado)
+        return resultado
+
+    def _rango_recursivo(self, actual, id_min, id_max, resultado):
+        if actual is None:
+            return
+        if id_min < actual.id:
+            self._rango_recursivo(actual.izquierdo, id_min, id_max, resultado)
+        if id_min <= actual.id <= id_max:
+            resultado.append(actual.estudiante)
+        if actual.id < id_max:
+            self._rango_recursivo(actual.derecho, id_min, id_max, resultado)

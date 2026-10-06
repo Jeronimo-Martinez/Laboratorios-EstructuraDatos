@@ -99,3 +99,21 @@ class ArbolBPlus:
             punteros_datos.extend(actual.punteros)
             actual = actual.siguiente
         return punteros_datos
+
+    def buscar_rango(self, id_min, id_max):
+        """Retorna los PUNTEROS de los estudiantes con id_min <= id <= id_max, ordenados.
+        Desciende hasta la hoja de id_min y recorre las hojas enlazadas hasta pasar id_max."""
+        actual = self.raiz
+        while not actual.es_hoja:
+            i = bisect.bisect_right(actual.claves, id_min)
+            actual = actual.punteros[i]
+
+        resultado = []
+        while actual is not None:
+            i = bisect.bisect_left(actual.claves, id_min)
+            for j in range(i, len(actual.claves)):
+                if actual.claves[j] > id_max:
+                    return resultado
+                resultado.append(actual.punteros[j])
+            actual = actual.siguiente
+        return resultado
