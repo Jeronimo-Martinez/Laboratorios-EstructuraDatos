@@ -1,0 +1,673 @@
+experimento,orden,estructura,N,n_muestras,p_value,es_normal
+busqueda_con_build,desordenados,ABB,5000,30,2.53677e-10,no
+busqueda_con_build,desordenados,ABB,6000,30,1.09606e-06,no
+busqueda_con_build,desordenados,ABB,7000,30,3.43437e-10,no
+busqueda_con_build,desordenados,ABB,8000,30,6.73129e-10,no
+busqueda_con_build,desordenados,ABB,9000,30,1.45742e-09,no
+busqueda_con_build,desordenados,ABB,10000,30,9.30745e-10,no
+busqueda_con_build,desordenados,ABB,11000,30,8.17242e-10,no
+busqueda_con_build,desordenados,ABB,12000,30,8.20812e-09,no
+busqueda_con_build,desordenados,ABB,13000,30,3.38073e-10,no
+busqueda_con_build,desordenados,ABB,14000,30,6.97033e-08,no
+busqueda_con_build,desordenados,ABB,15000,30,1.95661e-08,no
+busqueda_con_build,desordenados,ABB,16000,30,2.49904e-09,no
+busqueda_con_build,desordenados,ABB,17000,30,4.52487e-08,no
+busqueda_con_build,desordenados,ABB,18000,30,6.49201e-09,no
+busqueda_con_build,desordenados,ABB,19000,30,1.80779e-08,no
+busqueda_con_build,desordenados,ABB,20000,30,1.22659e-08,no
+busqueda_con_build,desordenados,B+,5000,30,0.000103622,no
+busqueda_con_build,desordenados,B+,6000,30,3.42134e-07,no
+busqueda_con_build,desordenados,B+,7000,30,4.63209e-09,no
+busqueda_con_build,desordenados,B+,8000,30,9.97281e-06,no
+busqueda_con_build,desordenados,B+,9000,30,7.399e-10,no
+busqueda_con_build,desordenados,B+,10000,30,1.5164e-09,no
+busqueda_con_build,desordenados,B+,11000,30,1.71477e-08,no
+busqueda_con_build,desordenados,B+,12000,30,6.34545e-07,no
+busqueda_con_build,desordenados,B+,13000,30,1.46082e-07,no
+busqueda_con_build,desordenados,B+,14000,30,9.38231e-07,no
+busqueda_con_build,desordenados,B+,15000,30,2.27091e-07,no
+busqueda_con_build,desordenados,B+,16000,30,3.77365e-07,no
+busqueda_con_build,desordenados,B+,17000,30,6.43673e-08,no
+busqueda_con_build,desordenados,B+,18000,30,7.841e-07,no
+busqueda_con_build,desordenados,B+,19000,30,1.40108e-06,no
+busqueda_con_build,desordenados,B+,20000,30,2.76801e-05,no
+busqueda_con_build,desordenados,Lista nativa,5000,30,0.00279241,no
+busqueda_con_build,desordenados,Lista nativa,6000,30,3.87441e-07,no
+busqueda_con_build,desordenados,Lista nativa,7000,30,0.000709251,no
+busqueda_con_build,desordenados,Lista nativa,8000,30,0.00701065,no
+busqueda_con_build,desordenados,Lista nativa,9000,30,8.1342e-08,no
+busqueda_con_build,desordenados,Lista nativa,10000,30,0.348179,si
+busqueda_con_build,desordenados,Lista nativa,11000,30,1.47889e-07,no
+busqueda_con_build,desordenados,Lista nativa,12000,30,0.736104,si
+busqueda_con_build,desordenados,Lista nativa,13000,30,0.278974,si
+busqueda_con_build,desordenados,Lista nativa,14000,30,2.19198e-08,no
+busqueda_con_build,desordenados,Lista nativa,15000,30,5.77614e-09,no
+busqueda_con_build,desordenados,Lista nativa,16000,30,1.11561e-08,no
+busqueda_con_build,desordenados,Lista nativa,17000,30,3.1689e-08,no
+busqueda_con_build,desordenados,Lista nativa,18000,30,1.86004e-09,no
+busqueda_con_build,desordenados,Lista nativa,19000,30,6.93366e-09,no
+busqueda_con_build,desordenados,Lista nativa,20000,30,4.59429e-09,no
+busqueda_con_build,ordenados,ABB,5000,30,0.00998179,no
+busqueda_con_build,ordenados,ABB,6000,30,0.00323946,no
+busqueda_con_build,ordenados,ABB,7000,30,0.00258328,no
+busqueda_con_build,ordenados,ABB,8000,30,1.59839e-05,no
+busqueda_con_build,ordenados,ABB,9000,30,5.38488e-06,no
+busqueda_con_build,ordenados,ABB,10000,30,6.83976e-09,no
+busqueda_con_build,ordenados,ABB,11000,30,6.37258e-09,no
+busqueda_con_build,ordenados,ABB,12000,30,9.52151e-05,no
+busqueda_con_build,ordenados,ABB,13000,30,4.33182e-07,no
+busqueda_con_build,ordenados,ABB,14000,30,0.00100443,no
+busqueda_con_build,ordenados,ABB,15000,30,0.00363549,no
+busqueda_con_build,ordenados,ABB,16000,30,4.49344e-05,no
+busqueda_con_build,ordenados,ABB,17000,30,3.07914e-05,no
+busqueda_con_build,ordenados,ABB,18000,30,5.23512e-05,no
+busqueda_con_build,ordenados,ABB,19000,30,0.00328237,no
+busqueda_con_build,ordenados,ABB,20000,30,2.62781e-06,no
+busqueda_con_build,ordenados,B+,5000,30,1.46499e-09,no
+busqueda_con_build,ordenados,B+,6000,30,2.91397e-10,no
+busqueda_con_build,ordenados,B+,7000,30,3.54242e-09,no
+busqueda_con_build,ordenados,B+,8000,30,1.04527e-08,no
+busqueda_con_build,ordenados,B+,9000,30,1.88804e-09,no
+busqueda_con_build,ordenados,B+,10000,30,3.90718e-08,no
+busqueda_con_build,ordenados,B+,11000,30,2.75353e-06,no
+busqueda_con_build,ordenados,B+,12000,30,2.81288e-08,no
+busqueda_con_build,ordenados,B+,13000,30,3.39933e-08,no
+busqueda_con_build,ordenados,B+,14000,30,7.94331e-08,no
+busqueda_con_build,ordenados,B+,15000,30,8.62482e-08,no
+busqueda_con_build,ordenados,B+,16000,30,2.35069e-07,no
+busqueda_con_build,ordenados,B+,17000,30,3.70072e-08,no
+busqueda_con_build,ordenados,B+,18000,30,9.56616e-05,no
+busqueda_con_build,ordenados,B+,19000,30,2.46067e-06,no
+busqueda_con_build,ordenados,B+,20000,30,2.2461e-07,no
+busqueda_con_build,ordenados,Lista nativa,5000,30,0.848777,si
+busqueda_con_build,ordenados,Lista nativa,6000,30,0.066391,si
+busqueda_con_build,ordenados,Lista nativa,7000,30,1.76504e-06,no
+busqueda_con_build,ordenados,Lista nativa,8000,30,0.192236,si
+busqueda_con_build,ordenados,Lista nativa,9000,30,2.3652e-07,no
+busqueda_con_build,ordenados,Lista nativa,10000,30,7.9623e-07,no
+busqueda_con_build,ordenados,Lista nativa,11000,30,0.280943,si
+busqueda_con_build,ordenados,Lista nativa,12000,30,0.357711,si
+busqueda_con_build,ordenados,Lista nativa,13000,30,0.0560412,si
+busqueda_con_build,ordenados,Lista nativa,14000,30,7.88443e-08,no
+busqueda_con_build,ordenados,Lista nativa,15000,30,0.65892,si
+busqueda_con_build,ordenados,Lista nativa,16000,30,1.94148e-07,no
+busqueda_con_build,ordenados,Lista nativa,17000,30,9.05948e-06,no
+busqueda_con_build,ordenados,Lista nativa,18000,30,2.10735e-08,no
+busqueda_con_build,ordenados,Lista nativa,19000,30,2.45672e-08,no
+busqueda_con_build,ordenados,Lista nativa,20000,30,0.386223,si
+busqueda_sin_build,desordenados,ABB,5000,30,2.11645e-08,no
+busqueda_sin_build,desordenados,ABB,6000,30,7.54383e-08,no
+busqueda_sin_build,desordenados,ABB,7000,30,6.10664e-08,no
+busqueda_sin_build,desordenados,ABB,8000,30,2.06581e-09,no
+busqueda_sin_build,desordenados,ABB,9000,30,1.0379e-08,no
+busqueda_sin_build,desordenados,ABB,10000,30,7.67907e-10,no
+busqueda_sin_build,desordenados,ABB,11000,30,1.09028e-09,no
+busqueda_sin_build,desordenados,ABB,12000,30,9.50934e-09,no
+busqueda_sin_build,desordenados,ABB,13000,30,3.24873e-10,no
+busqueda_sin_build,desordenados,ABB,14000,30,1.68223e-07,no
+busqueda_sin_build,desordenados,ABB,15000,30,2.41049e-07,no
+busqueda_sin_build,desordenados,ABB,16000,30,1.04286e-07,no
+busqueda_sin_build,desordenados,ABB,17000,30,2.49271e-06,no
+busqueda_sin_build,desordenados,ABB,18000,30,3.50829e-06,no
+busqueda_sin_build,desordenados,ABB,19000,30,1.21581e-05,no
+busqueda_sin_build,desordenados,ABB,20000,30,3.50398e-09,no
+busqueda_sin_build,desordenados,B+,5000,30,2.25572e-09,no
+busqueda_sin_build,desordenados,B+,6000,30,0.000141762,no
+busqueda_sin_build,desordenados,B+,7000,30,1.24906e-10,no
+busqueda_sin_build,desordenados,B+,8000,30,2.10564e-10,no
+busqueda_sin_build,desordenados,B+,9000,30,1.62564e-10,no
+busqueda_sin_build,desordenados,B+,10000,30,4.99571e-11,no
+busqueda_sin_build,desordenados,B+,11000,30,9.44212e-11,no
+busqueda_sin_build,desordenados,B+,12000,30,9.93359e-11,no
+busqueda_sin_build,desordenados,B+,13000,30,2.05262e-09,no
+busqueda_sin_build,desordenados,B+,14000,30,1.83332e-09,no
+busqueda_sin_build,desordenados,B+,15000,30,4.28061e-09,no
+busqueda_sin_build,desordenados,B+,16000,30,1.82239e-08,no
+busqueda_sin_build,desordenados,B+,17000,30,2.97978e-09,no
+busqueda_sin_build,desordenados,B+,18000,30,1.44864e-09,no
+busqueda_sin_build,desordenados,B+,19000,30,9.57756e-09,no
+busqueda_sin_build,desordenados,B+,20000,30,1.5717e-08,no
+busqueda_sin_build,desordenados,Lista nativa,5000,30,0.0292982,no
+busqueda_sin_build,desordenados,Lista nativa,6000,30,0.00540234,no
+busqueda_sin_build,desordenados,Lista nativa,7000,30,0.127545,si
+busqueda_sin_build,desordenados,Lista nativa,8000,30,0.246991,si
+busqueda_sin_build,desordenados,Lista nativa,9000,30,6.40692e-08,no
+busqueda_sin_build,desordenados,Lista nativa,10000,30,2.28729e-05,no
+busqueda_sin_build,desordenados,Lista nativa,11000,30,9.26974e-07,no
+busqueda_sin_build,desordenados,Lista nativa,12000,30,9.89504e-06,no
+busqueda_sin_build,desordenados,Lista nativa,13000,30,1.19893e-07,no
+busqueda_sin_build,desordenados,Lista nativa,14000,30,2.9405e-08,no
+busqueda_sin_build,desordenados,Lista nativa,15000,30,5.58886e-10,no
+busqueda_sin_build,desordenados,Lista nativa,16000,30,8.34227e-09,no
+busqueda_sin_build,desordenados,Lista nativa,17000,30,0.00463606,no
+busqueda_sin_build,desordenados,Lista nativa,18000,30,2.90168e-07,no
+busqueda_sin_build,desordenados,Lista nativa,19000,30,0.499674,si
+busqueda_sin_build,desordenados,Lista nativa,20000,30,4.86348e-09,no
+busqueda_sin_build,ordenados,ABB,5000,30,0.444555,si
+busqueda_sin_build,ordenados,ABB,6000,30,2.56046e-06,no
+busqueda_sin_build,ordenados,ABB,7000,30,2.12988e-07,no
+busqueda_sin_build,ordenados,ABB,8000,30,3.29247e-08,no
+busqueda_sin_build,ordenados,ABB,9000,30,0.00768704,no
+busqueda_sin_build,ordenados,ABB,10000,30,2.83541e-06,no
+busqueda_sin_build,ordenados,ABB,11000,30,0.00463393,no
+busqueda_sin_build,ordenados,ABB,12000,30,1.15113e-07,no
+busqueda_sin_build,ordenados,ABB,13000,30,1.75641e-05,no
+busqueda_sin_build,ordenados,ABB,14000,30,3.22502e-07,no
+busqueda_sin_build,ordenados,ABB,15000,30,0.0849743,si
+busqueda_sin_build,ordenados,ABB,16000,30,0.0204361,no
+busqueda_sin_build,ordenados,ABB,17000,30,0.00266283,no
+busqueda_sin_build,ordenados,ABB,18000,30,2.75301e-08,no
+busqueda_sin_build,ordenados,ABB,19000,30,2.61828e-07,no
+busqueda_sin_build,ordenados,ABB,20000,30,0.00127055,no
+busqueda_sin_build,ordenados,B+,5000,30,2.00397e-10,no
+busqueda_sin_build,ordenados,B+,6000,30,1.45891e-10,no
+busqueda_sin_build,ordenados,B+,7000,30,9.92844e-11,no
+busqueda_sin_build,ordenados,B+,8000,30,5.57489e-11,no
+busqueda_sin_build,ordenados,B+,9000,30,3.1319e-09,no
+busqueda_sin_build,ordenados,B+,10000,30,4.47542e-10,no
+busqueda_sin_build,ordenados,B+,11000,30,2.45456e-10,no
+busqueda_sin_build,ordenados,B+,12000,30,5.93104e-09,no
+busqueda_sin_build,ordenados,B+,13000,30,1.23599e-08,no
+busqueda_sin_build,ordenados,B+,14000,30,7.1408e-08,no
+busqueda_sin_build,ordenados,B+,15000,30,1.40564e-10,no
+busqueda_sin_build,ordenados,B+,16000,30,3.46853e-10,no
+busqueda_sin_build,ordenados,B+,17000,30,3.65579e-08,no
+busqueda_sin_build,ordenados,B+,18000,30,2.70394e-10,no
+busqueda_sin_build,ordenados,B+,19000,30,1.54133e-07,no
+busqueda_sin_build,ordenados,B+,20000,30,4.92317e-09,no
+busqueda_sin_build,ordenados,Lista nativa,5000,30,0.00631799,no
+busqueda_sin_build,ordenados,Lista nativa,6000,30,0.00925555,no
+busqueda_sin_build,ordenados,Lista nativa,7000,30,0.850169,si
+busqueda_sin_build,ordenados,Lista nativa,8000,30,9.52927e-07,no
+busqueda_sin_build,ordenados,Lista nativa,9000,30,0.105529,si
+busqueda_sin_build,ordenados,Lista nativa,10000,30,4.70726e-06,no
+busqueda_sin_build,ordenados,Lista nativa,11000,30,0.0472594,no
+busqueda_sin_build,ordenados,Lista nativa,12000,30,4.12617e-09,no
+busqueda_sin_build,ordenados,Lista nativa,13000,30,0.927782,si
+busqueda_sin_build,ordenados,Lista nativa,14000,30,6.30999e-06,no
+busqueda_sin_build,ordenados,Lista nativa,15000,30,3.08623e-07,no
+busqueda_sin_build,ordenados,Lista nativa,16000,30,0.265138,si
+busqueda_sin_build,ordenados,Lista nativa,17000,30,1.13036e-09,no
+busqueda_sin_build,ordenados,Lista nativa,18000,30,3.10552e-08,no
+busqueda_sin_build,ordenados,Lista nativa,19000,30,0.925727,si
+busqueda_sin_build,ordenados,Lista nativa,20000,30,1.13819e-07,no
+listar_ordenado,desordenados,ABB,5000,30,1.46319e-07,no
+listar_ordenado,desordenados,ABB,6000,30,7.03225e-05,no
+listar_ordenado,desordenados,ABB,7000,30,2.31534e-05,no
+listar_ordenado,desordenados,ABB,8000,30,0.000432796,no
+listar_ordenado,desordenados,ABB,9000,30,8.71975e-06,no
+listar_ordenado,desordenados,ABB,10000,30,1.73724e-05,no
+listar_ordenado,desordenados,ABB,11000,30,4.9023e-05,no
+listar_ordenado,desordenados,ABB,12000,30,7.28723e-07,no
+listar_ordenado,desordenados,ABB,13000,30,0.254786,si
+listar_ordenado,desordenados,ABB,14000,30,0.693472,si
+listar_ordenado,desordenados,ABB,15000,30,1.33944e-05,no
+listar_ordenado,desordenados,ABB,16000,30,0.0231633,no
+listar_ordenado,desordenados,ABB,17000,30,0.0649589,si
+listar_ordenado,desordenados,ABB,18000,30,0.104446,si
+listar_ordenado,desordenados,ABB,19000,30,0.0116029,no
+listar_ordenado,desordenados,ABB,20000,30,0.370383,si
+listar_ordenado,desordenados,B+,5000,30,9.03684e-10,no
+listar_ordenado,desordenados,B+,6000,30,0.000120875,no
+listar_ordenado,desordenados,B+,7000,30,3.08772e-06,no
+listar_ordenado,desordenados,B+,8000,30,2.22464e-07,no
+listar_ordenado,desordenados,B+,9000,30,1.96722e-06,no
+listar_ordenado,desordenados,B+,10000,30,6.17684e-10,no
+listar_ordenado,desordenados,B+,11000,30,1.3371e-06,no
+listar_ordenado,desordenados,B+,12000,30,6.00962e-08,no
+listar_ordenado,desordenados,B+,13000,30,0.000216445,no
+listar_ordenado,desordenados,B+,14000,30,0.00066151,no
+listar_ordenado,desordenados,B+,15000,30,0.00551322,no
+listar_ordenado,desordenados,B+,16000,30,0.00170813,no
+listar_ordenado,desordenados,B+,17000,30,0.0428293,no
+listar_ordenado,desordenados,B+,18000,30,0.000653782,no
+listar_ordenado,desordenados,B+,19000,30,0.000339649,no
+listar_ordenado,desordenados,B+,20000,30,0.21546,si
+listar_ordenado,desordenados,Lista nativa,5000,30,0.0247381,no
+listar_ordenado,desordenados,Lista nativa,6000,30,0.000940641,no
+listar_ordenado,desordenados,Lista nativa,7000,30,0.000104157,no
+listar_ordenado,desordenados,Lista nativa,8000,30,9.11899e-06,no
+listar_ordenado,desordenados,Lista nativa,9000,30,0.00607502,no
+listar_ordenado,desordenados,Lista nativa,10000,30,0.00122567,no
+listar_ordenado,desordenados,Lista nativa,11000,30,0.0271316,no
+listar_ordenado,desordenados,Lista nativa,12000,30,5.33754e-08,no
+listar_ordenado,desordenados,Lista nativa,13000,30,0.274206,si
+listar_ordenado,desordenados,Lista nativa,14000,30,0.411718,si
+listar_ordenado,desordenados,Lista nativa,15000,30,1.73649e-05,no
+listar_ordenado,desordenados,Lista nativa,16000,30,0.0584112,si
+listar_ordenado,desordenados,Lista nativa,17000,30,0.857698,si
+listar_ordenado,desordenados,Lista nativa,18000,30,0.364716,si
+listar_ordenado,desordenados,Lista nativa,19000,30,0.215465,si
+listar_ordenado,desordenados,Lista nativa,20000,30,0.873364,si
+listar_ordenado,ordenados,ABB,5000,30,2.26211e-05,no
+listar_ordenado,ordenados,ABB,6000,30,0.00164572,no
+listar_ordenado,ordenados,ABB,7000,30,0.0195204,no
+listar_ordenado,ordenados,ABB,8000,30,0.0895458,si
+listar_ordenado,ordenados,ABB,9000,30,0.00883998,no
+listar_ordenado,ordenados,ABB,10000,30,0.0279089,no
+listar_ordenado,ordenados,ABB,11000,30,0.00088413,no
+listar_ordenado,ordenados,ABB,12000,30,0.0719134,si
+listar_ordenado,ordenados,ABB,13000,30,0.0105974,no
+listar_ordenado,ordenados,ABB,14000,30,0.314948,si
+listar_ordenado,ordenados,ABB,15000,30,0.0928607,si
+listar_ordenado,ordenados,ABB,16000,30,0.772364,si
+listar_ordenado,ordenados,ABB,17000,30,0.00858704,no
+listar_ordenado,ordenados,ABB,18000,30,0.405215,si
+listar_ordenado,ordenados,ABB,19000,30,0.0421317,no
+listar_ordenado,ordenados,ABB,20000,30,0.0640485,si
+listar_ordenado,ordenados,B+,5000,30,1.33939e-06,no
+listar_ordenado,ordenados,B+,6000,30,2.41879e-07,no
+listar_ordenado,ordenados,B+,7000,30,3.20444e-06,no
+listar_ordenado,ordenados,B+,8000,30,8.59219e-05,no
+listar_ordenado,ordenados,B+,9000,30,9.34326e-05,no
+listar_ordenado,ordenados,B+,10000,30,3.86835e-07,no
+listar_ordenado,ordenados,B+,11000,30,0.00110553,no
+listar_ordenado,ordenados,B+,12000,30,0.00255248,no
+listar_ordenado,ordenados,B+,13000,30,0.0015792,no
+listar_ordenado,ordenados,B+,14000,30,0.0489145,no
+listar_ordenado,ordenados,B+,15000,30,0.00796438,no
+listar_ordenado,ordenados,B+,16000,30,0.449589,si
+listar_ordenado,ordenados,B+,17000,30,0.0272766,no
+listar_ordenado,ordenados,B+,18000,30,0.241712,si
+listar_ordenado,ordenados,B+,19000,30,0.030142,no
+listar_ordenado,ordenados,B+,20000,30,3.65707e-05,no
+listar_ordenado,ordenados,Lista nativa,5000,30,8.05128e-08,no
+listar_ordenado,ordenados,Lista nativa,6000,30,3.26391e-10,no
+listar_ordenado,ordenados,Lista nativa,7000,30,2.59419e-08,no
+listar_ordenado,ordenados,Lista nativa,8000,30,6.19414e-06,no
+listar_ordenado,ordenados,Lista nativa,9000,30,2.4038e-08,no
+listar_ordenado,ordenados,Lista nativa,10000,30,1.75987e-07,no
+listar_ordenado,ordenados,Lista nativa,11000,30,6.17106e-08,no
+listar_ordenado,ordenados,Lista nativa,12000,30,9.82302e-06,no
+listar_ordenado,ordenados,Lista nativa,13000,30,0.0230013,no
+listar_ordenado,ordenados,Lista nativa,14000,30,2.85665e-05,no
+listar_ordenado,ordenados,Lista nativa,15000,30,0.00631365,no
+listar_ordenado,ordenados,Lista nativa,16000,30,0.0575893,si
+listar_ordenado,ordenados,Lista nativa,17000,30,6.63813e-05,no
+listar_ordenado,ordenados,Lista nativa,18000,30,0.000180497,no
+listar_ordenado,ordenados,Lista nativa,19000,30,0.625123,si
+listar_ordenado,ordenados,Lista nativa,20000,30,0.0593044,si
+rango_10pct,desordenados,ABB,5000,30,1.02487e-05,no
+rango_10pct,desordenados,ABB,6000,30,0.018277,no
+rango_10pct,desordenados,ABB,7000,30,9.49482e-05,no
+rango_10pct,desordenados,ABB,8000,30,1.68715e-06,no
+rango_10pct,desordenados,ABB,9000,30,0.000505347,no
+rango_10pct,desordenados,ABB,10000,30,9.24461e-07,no
+rango_10pct,desordenados,ABB,11000,30,1.59681e-08,no
+rango_10pct,desordenados,ABB,12000,30,1.66845e-06,no
+rango_10pct,desordenados,ABB,13000,30,0.00278405,no
+rango_10pct,desordenados,ABB,14000,30,8.74705e-07,no
+rango_10pct,desordenados,ABB,15000,30,7.35729e-06,no
+rango_10pct,desordenados,ABB,16000,30,1.16576e-06,no
+rango_10pct,desordenados,ABB,17000,30,0.0490121,no
+rango_10pct,desordenados,ABB,18000,30,0.0025238,no
+rango_10pct,desordenados,ABB,19000,30,0.385366,si
+rango_10pct,desordenados,ABB,20000,30,0.0047534,no
+rango_10pct,desordenados,B+,5000,30,2.65776e-06,no
+rango_10pct,desordenados,B+,6000,30,2.16242e-08,no
+rango_10pct,desordenados,B+,7000,30,0.255881,si
+rango_10pct,desordenados,B+,8000,30,2.95316e-06,no
+rango_10pct,desordenados,B+,9000,30,9.10239e-11,no
+rango_10pct,desordenados,B+,10000,30,6.69404e-11,no
+rango_10pct,desordenados,B+,11000,30,6.21203e-07,no
+rango_10pct,desordenados,B+,12000,30,1.73414e-09,no
+rango_10pct,desordenados,B+,13000,30,0.0698994,si
+rango_10pct,desordenados,B+,14000,30,6.37689e-06,no
+rango_10pct,desordenados,B+,15000,30,0.0015697,no
+rango_10pct,desordenados,B+,16000,30,5.07905e-05,no
+rango_10pct,desordenados,B+,17000,30,0.00435281,no
+rango_10pct,desordenados,B+,18000,30,0.00291481,no
+rango_10pct,desordenados,B+,19000,30,0.00075392,no
+rango_10pct,desordenados,B+,20000,30,1.36809e-06,no
+rango_10pct,desordenados,Lista nativa,5000,30,0.00476954,no
+rango_10pct,desordenados,Lista nativa,6000,30,0.000187327,no
+rango_10pct,desordenados,Lista nativa,7000,30,1.04238e-05,no
+rango_10pct,desordenados,Lista nativa,8000,30,0.000625009,no
+rango_10pct,desordenados,Lista nativa,9000,30,0.000624655,no
+rango_10pct,desordenados,Lista nativa,10000,30,0.0181635,no
+rango_10pct,desordenados,Lista nativa,11000,30,0.0170422,no
+rango_10pct,desordenados,Lista nativa,12000,30,3.42731e-08,no
+rango_10pct,desordenados,Lista nativa,13000,30,0.000877534,no
+rango_10pct,desordenados,Lista nativa,14000,30,0.000979858,no
+rango_10pct,desordenados,Lista nativa,15000,30,0.029108,no
+rango_10pct,desordenados,Lista nativa,16000,30,0.000799577,no
+rango_10pct,desordenados,Lista nativa,17000,30,0.00321368,no
+rango_10pct,desordenados,Lista nativa,18000,30,0.00458037,no
+rango_10pct,desordenados,Lista nativa,19000,30,0.000709532,no
+rango_10pct,desordenados,Lista nativa,20000,30,1.01271e-05,no
+rango_10pct,ordenados,ABB,5000,30,0.0704826,si
+rango_10pct,ordenados,ABB,6000,30,8.14905e-06,no
+rango_10pct,ordenados,ABB,7000,30,0.956953,si
+rango_10pct,ordenados,ABB,8000,30,0.188222,si
+rango_10pct,ordenados,ABB,9000,30,6.44706e-07,no
+rango_10pct,ordenados,ABB,10000,30,0.000284679,no
+rango_10pct,ordenados,ABB,11000,30,0.00805858,no
+rango_10pct,ordenados,ABB,12000,30,0.0709579,si
+rango_10pct,ordenados,ABB,13000,30,0.0151838,no
+rango_10pct,ordenados,ABB,14000,30,0.00187888,no
+rango_10pct,ordenados,ABB,15000,30,0.392909,si
+rango_10pct,ordenados,ABB,16000,30,0.0359886,no
+rango_10pct,ordenados,ABB,17000,30,0.0797134,si
+rango_10pct,ordenados,ABB,18000,30,0.889802,si
+rango_10pct,ordenados,ABB,19000,30,0.438795,si
+rango_10pct,ordenados,ABB,20000,30,0.203492,si
+rango_10pct,ordenados,B+,5000,30,0.57905,si
+rango_10pct,ordenados,B+,6000,30,0.000210731,no
+rango_10pct,ordenados,B+,7000,30,1.85922e-07,no
+rango_10pct,ordenados,B+,8000,30,7.28195e-10,no
+rango_10pct,ordenados,B+,9000,30,0.000871447,no
+rango_10pct,ordenados,B+,10000,30,0.000101014,no
+rango_10pct,ordenados,B+,11000,30,1.59738e-06,no
+rango_10pct,ordenados,B+,12000,30,0.000237824,no
+rango_10pct,ordenados,B+,13000,30,5.06128e-06,no
+rango_10pct,ordenados,B+,14000,30,0.0117894,no
+rango_10pct,ordenados,B+,15000,30,0.215322,si
+rango_10pct,ordenados,B+,16000,30,0.000733939,no
+rango_10pct,ordenados,B+,17000,30,0.000266189,no
+rango_10pct,ordenados,B+,18000,30,0.00132369,no
+rango_10pct,ordenados,B+,19000,30,0.00401022,no
+rango_10pct,ordenados,B+,20000,30,0.00110527,no
+rango_10pct,ordenados,Lista nativa,5000,30,0.000661826,no
+rango_10pct,ordenados,Lista nativa,6000,30,0.00011184,no
+rango_10pct,ordenados,Lista nativa,7000,30,1.25444e-05,no
+rango_10pct,ordenados,Lista nativa,8000,30,2.46796e-08,no
+rango_10pct,ordenados,Lista nativa,9000,30,0.00411063,no
+rango_10pct,ordenados,Lista nativa,10000,30,0.00128493,no
+rango_10pct,ordenados,Lista nativa,11000,30,1.54549e-08,no
+rango_10pct,ordenados,Lista nativa,12000,30,0.00994214,no
+rango_10pct,ordenados,Lista nativa,13000,30,0.111815,si
+rango_10pct,ordenados,Lista nativa,14000,30,0.0667845,si
+rango_10pct,ordenados,Lista nativa,15000,30,0.379393,si
+rango_10pct,ordenados,Lista nativa,16000,30,0.00419457,no
+rango_10pct,ordenados,Lista nativa,17000,30,0.0175705,no
+rango_10pct,ordenados,Lista nativa,18000,30,0.0137292,no
+rango_10pct,ordenados,Lista nativa,19000,30,0.0833079,si
+rango_10pct,ordenados,Lista nativa,20000,30,0.00942714,no
+rango_1pct,desordenados,ABB,5000,30,8.17471e-07,no
+rango_1pct,desordenados,ABB,6000,30,6.90454e-09,no
+rango_1pct,desordenados,ABB,7000,30,2.94906e-07,no
+rango_1pct,desordenados,ABB,8000,30,1.73392e-07,no
+rango_1pct,desordenados,ABB,9000,30,1.69425e-06,no
+rango_1pct,desordenados,ABB,10000,30,9.48734e-10,no
+rango_1pct,desordenados,ABB,11000,30,2.84448e-08,no
+rango_1pct,desordenados,ABB,12000,30,1.52903e-09,no
+rango_1pct,desordenados,ABB,13000,30,2.60544e-09,no
+rango_1pct,desordenados,ABB,14000,30,2.00031e-08,no
+rango_1pct,desordenados,ABB,15000,30,1.8389e-08,no
+rango_1pct,desordenados,ABB,16000,30,1.97893e-08,no
+rango_1pct,desordenados,ABB,17000,30,3.74427e-09,no
+rango_1pct,desordenados,ABB,18000,30,1.6105e-08,no
+rango_1pct,desordenados,ABB,19000,30,5.83335e-08,no
+rango_1pct,desordenados,ABB,20000,30,2.6839e-08,no
+rango_1pct,desordenados,B+,5000,30,5.00017e-09,no
+rango_1pct,desordenados,B+,6000,30,1.88596e-08,no
+rango_1pct,desordenados,B+,7000,30,4.72589e-08,no
+rango_1pct,desordenados,B+,8000,30,2.77077e-10,no
+rango_1pct,desordenados,B+,9000,30,2.59341e-08,no
+rango_1pct,desordenados,B+,10000,30,1.0537e-08,no
+rango_1pct,desordenados,B+,11000,30,1.33692e-05,no
+rango_1pct,desordenados,B+,12000,30,1.90627e-09,no
+rango_1pct,desordenados,B+,13000,30,1.42233e-09,no
+rango_1pct,desordenados,B+,14000,30,3.51181e-07,no
+rango_1pct,desordenados,B+,15000,30,2.05586e-08,no
+rango_1pct,desordenados,B+,16000,30,2.05261e-08,no
+rango_1pct,desordenados,B+,17000,30,0.00336153,no
+rango_1pct,desordenados,B+,18000,30,4.28955e-10,no
+rango_1pct,desordenados,B+,19000,30,5.19456e-10,no
+rango_1pct,desordenados,B+,20000,30,3.6632e-06,no
+rango_1pct,desordenados,Lista nativa,5000,30,1.32106e-09,no
+rango_1pct,desordenados,Lista nativa,6000,30,2.78147e-07,no
+rango_1pct,desordenados,Lista nativa,7000,30,2.24647e-06,no
+rango_1pct,desordenados,Lista nativa,8000,30,1.69865e-07,no
+rango_1pct,desordenados,Lista nativa,9000,30,4.03503e-06,no
+rango_1pct,desordenados,Lista nativa,10000,30,8.16031e-08,no
+rango_1pct,desordenados,Lista nativa,11000,30,0.00065142,no
+rango_1pct,desordenados,Lista nativa,12000,30,5.80357e-06,no
+rango_1pct,desordenados,Lista nativa,13000,30,0.000395677,no
+rango_1pct,desordenados,Lista nativa,14000,30,4.81603e-05,no
+rango_1pct,desordenados,Lista nativa,15000,30,0.0562803,si
+rango_1pct,desordenados,Lista nativa,16000,30,0.0501946,si
+rango_1pct,desordenados,Lista nativa,17000,30,5.06875e-06,no
+rango_1pct,desordenados,Lista nativa,18000,30,0.00424903,no
+rango_1pct,desordenados,Lista nativa,19000,30,0.000923606,no
+rango_1pct,desordenados,Lista nativa,20000,30,0.00919327,no
+rango_1pct,ordenados,ABB,5000,30,6.57129e-06,no
+rango_1pct,ordenados,ABB,6000,30,0.000428884,no
+rango_1pct,ordenados,ABB,7000,30,0.0579794,si
+rango_1pct,ordenados,ABB,8000,30,0.00113835,no
+rango_1pct,ordenados,ABB,9000,30,0.000796956,no
+rango_1pct,ordenados,ABB,10000,30,0.303918,si
+rango_1pct,ordenados,ABB,11000,30,0.00143376,no
+rango_1pct,ordenados,ABB,12000,30,0.862056,si
+rango_1pct,ordenados,ABB,13000,30,0.491327,si
+rango_1pct,ordenados,ABB,14000,30,0.519064,si
+rango_1pct,ordenados,ABB,15000,30,0.0911829,si
+rango_1pct,ordenados,ABB,16000,30,0.779737,si
+rango_1pct,ordenados,ABB,17000,30,0.529957,si
+rango_1pct,ordenados,ABB,18000,30,0.00416494,no
+rango_1pct,ordenados,ABB,19000,30,0.584598,si
+rango_1pct,ordenados,ABB,20000,30,0.203399,si
+rango_1pct,ordenados,B+,5000,30,2.06017e-08,no
+rango_1pct,ordenados,B+,6000,30,1.83835e-09,no
+rango_1pct,ordenados,B+,7000,30,1.52885e-07,no
+rango_1pct,ordenados,B+,8000,30,1.88273e-07,no
+rango_1pct,ordenados,B+,9000,30,5.47908e-07,no
+rango_1pct,ordenados,B+,10000,30,2.1387e-07,no
+rango_1pct,ordenados,B+,11000,30,3.06549e-07,no
+rango_1pct,ordenados,B+,12000,30,1.15376e-06,no
+rango_1pct,ordenados,B+,13000,30,2.60778e-05,no
+rango_1pct,ordenados,B+,14000,30,6.55422e-06,no
+rango_1pct,ordenados,B+,15000,30,6.01735e-09,no
+rango_1pct,ordenados,B+,16000,30,4.16182e-09,no
+rango_1pct,ordenados,B+,17000,30,2.11921e-05,no
+rango_1pct,ordenados,B+,18000,30,2.4881e-08,no
+rango_1pct,ordenados,B+,19000,30,4.75852e-09,no
+rango_1pct,ordenados,B+,20000,30,6.32463e-09,no
+rango_1pct,ordenados,Lista nativa,5000,30,0.0041311,no
+rango_1pct,ordenados,Lista nativa,6000,30,0.00146497,no
+rango_1pct,ordenados,Lista nativa,7000,30,7.84391e-09,no
+rango_1pct,ordenados,Lista nativa,8000,30,1.64882e-05,no
+rango_1pct,ordenados,Lista nativa,9000,30,1.86264e-07,no
+rango_1pct,ordenados,Lista nativa,10000,30,5.6793e-05,no
+rango_1pct,ordenados,Lista nativa,11000,30,0.0396497,no
+rango_1pct,ordenados,Lista nativa,12000,30,1.11564e-06,no
+rango_1pct,ordenados,Lista nativa,13000,30,5.08754e-05,no
+rango_1pct,ordenados,Lista nativa,14000,30,0.0474906,no
+rango_1pct,ordenados,Lista nativa,15000,30,0.00997515,no
+rango_1pct,ordenados,Lista nativa,16000,30,0.000473542,no
+rango_1pct,ordenados,Lista nativa,17000,30,0.00126629,no
+rango_1pct,ordenados,Lista nativa,18000,30,0.193913,si
+rango_1pct,ordenados,Lista nativa,19000,30,7.21517e-05,no
+rango_1pct,ordenados,Lista nativa,20000,30,0.00239522,no
+rango_25pct,desordenados,ABB,5000,30,4.96248e-07,no
+rango_25pct,desordenados,ABB,6000,30,0.00012514,no
+rango_25pct,desordenados,ABB,7000,30,3.39527e-05,no
+rango_25pct,desordenados,ABB,8000,30,4.08885e-05,no
+rango_25pct,desordenados,ABB,9000,30,8.49992e-05,no
+rango_25pct,desordenados,ABB,10000,30,0.00237792,no
+rango_25pct,desordenados,ABB,11000,30,4.37329e-09,no
+rango_25pct,desordenados,ABB,12000,30,0.00855745,no
+rango_25pct,desordenados,ABB,13000,30,0.639191,si
+rango_25pct,desordenados,ABB,14000,30,0.000155664,no
+rango_25pct,desordenados,ABB,15000,30,0.107389,si
+rango_25pct,desordenados,ABB,16000,30,0.00310357,no
+rango_25pct,desordenados,ABB,17000,30,0.131946,si
+rango_25pct,desordenados,ABB,18000,30,0.00403931,no
+rango_25pct,desordenados,ABB,19000,30,1.23723e-05,no
+rango_25pct,desordenados,ABB,20000,30,0.000281624,no
+rango_25pct,desordenados,B+,5000,30,2.26776e-07,no
+rango_25pct,desordenados,B+,6000,30,3.52321e-05,no
+rango_25pct,desordenados,B+,7000,30,4.56644e-09,no
+rango_25pct,desordenados,B+,8000,30,0.000134871,no
+rango_25pct,desordenados,B+,9000,30,1.96199e-05,no
+rango_25pct,desordenados,B+,10000,30,0.0646706,si
+rango_25pct,desordenados,B+,11000,30,8.68999e-05,no
+rango_25pct,desordenados,B+,12000,30,0.40358,si
+rango_25pct,desordenados,B+,13000,30,0.189104,si
+rango_25pct,desordenados,B+,14000,30,0.0852634,si
+rango_25pct,desordenados,B+,15000,30,0.405006,si
+rango_25pct,desordenados,B+,16000,30,0.0008834,no
+rango_25pct,desordenados,B+,17000,30,0.0178752,no
+rango_25pct,desordenados,B+,18000,30,0.00994503,no
+rango_25pct,desordenados,B+,19000,30,0.000562297,no
+rango_25pct,desordenados,B+,20000,30,0.017073,no
+rango_25pct,desordenados,Lista nativa,5000,30,0.0108237,no
+rango_25pct,desordenados,Lista nativa,6000,30,0.000568404,no
+rango_25pct,desordenados,Lista nativa,7000,30,3.94469e-09,no
+rango_25pct,desordenados,Lista nativa,8000,30,1.30183e-06,no
+rango_25pct,desordenados,Lista nativa,9000,30,5.03981e-08,no
+rango_25pct,desordenados,Lista nativa,10000,30,1.16863e-07,no
+rango_25pct,desordenados,Lista nativa,11000,30,3.21953e-07,no
+rango_25pct,desordenados,Lista nativa,12000,30,0.0868499,si
+rango_25pct,desordenados,Lista nativa,13000,30,0.0702642,si
+rango_25pct,desordenados,Lista nativa,14000,30,0.0115851,no
+rango_25pct,desordenados,Lista nativa,15000,30,4.4348e-08,no
+rango_25pct,desordenados,Lista nativa,16000,30,8.94422e-05,no
+rango_25pct,desordenados,Lista nativa,17000,30,0.0593751,si
+rango_25pct,desordenados,Lista nativa,18000,30,2.56608e-06,no
+rango_25pct,desordenados,Lista nativa,19000,30,0.171452,si
+rango_25pct,desordenados,Lista nativa,20000,30,0.000149051,no
+rango_25pct,ordenados,ABB,5000,30,1.14967e-07,no
+rango_25pct,ordenados,ABB,6000,30,1.82448e-06,no
+rango_25pct,ordenados,ABB,7000,30,3.27003e-05,no
+rango_25pct,ordenados,ABB,8000,30,0.365432,si
+rango_25pct,ordenados,ABB,9000,30,0.0713591,si
+rango_25pct,ordenados,ABB,10000,30,0.0688825,si
+rango_25pct,ordenados,ABB,11000,30,0.0122325,no
+rango_25pct,ordenados,ABB,12000,30,3.11883e-06,no
+rango_25pct,ordenados,ABB,13000,30,0.0140881,no
+rango_25pct,ordenados,ABB,14000,30,0.0774744,si
+rango_25pct,ordenados,ABB,15000,30,0.0624944,si
+rango_25pct,ordenados,ABB,16000,30,0.0473516,no
+rango_25pct,ordenados,ABB,17000,30,0.0359576,no
+rango_25pct,ordenados,ABB,18000,30,0.77212,si
+rango_25pct,ordenados,ABB,19000,30,0.185602,si
+rango_25pct,ordenados,ABB,20000,30,9.58981e-07,no
+rango_25pct,ordenados,B+,5000,30,0.000642984,no
+rango_25pct,ordenados,B+,6000,30,4.47557e-06,no
+rango_25pct,ordenados,B+,7000,30,0.000166444,no
+rango_25pct,ordenados,B+,8000,30,0.000501814,no
+rango_25pct,ordenados,B+,9000,30,0.0609555,si
+rango_25pct,ordenados,B+,10000,30,7.25197e-06,no
+rango_25pct,ordenados,B+,11000,30,0.048853,no
+rango_25pct,ordenados,B+,12000,30,0.000150642,no
+rango_25pct,ordenados,B+,13000,30,0.19212,si
+rango_25pct,ordenados,B+,14000,30,0.00414856,no
+rango_25pct,ordenados,B+,15000,30,0.00784165,no
+rango_25pct,ordenados,B+,16000,30,0.000141463,no
+rango_25pct,ordenados,B+,17000,30,0.0262707,no
+rango_25pct,ordenados,B+,18000,30,2.64513e-05,no
+rango_25pct,ordenados,B+,19000,30,0.00104105,no
+rango_25pct,ordenados,B+,20000,30,0.240516,si
+rango_25pct,ordenados,Lista nativa,5000,30,0.102382,si
+rango_25pct,ordenados,Lista nativa,6000,30,3.69576e-06,no
+rango_25pct,ordenados,Lista nativa,7000,30,0.081751,si
+rango_25pct,ordenados,Lista nativa,8000,30,1.81054e-07,no
+rango_25pct,ordenados,Lista nativa,9000,30,0.000600225,no
+rango_25pct,ordenados,Lista nativa,10000,30,8.00029e-09,no
+rango_25pct,ordenados,Lista nativa,11000,30,0.00897986,no
+rango_25pct,ordenados,Lista nativa,12000,30,0.00167761,no
+rango_25pct,ordenados,Lista nativa,13000,30,1.59906e-06,no
+rango_25pct,ordenados,Lista nativa,14000,30,0.0090768,no
+rango_25pct,ordenados,Lista nativa,15000,30,0.0876876,si
+rango_25pct,ordenados,Lista nativa,16000,30,0.473176,si
+rango_25pct,ordenados,Lista nativa,17000,30,0.0136221,no
+rango_25pct,ordenados,Lista nativa,18000,30,7.91827e-05,no
+rango_25pct,ordenados,Lista nativa,19000,30,0.018005,no
+rango_25pct,ordenados,Lista nativa,20000,30,2.83709e-05,no
+rango_5pct,desordenados,ABB,5000,30,4.90282e-08,no
+rango_5pct,desordenados,ABB,6000,30,2.97179e-06,no
+rango_5pct,desordenados,ABB,7000,30,0.00225894,no
+rango_5pct,desordenados,ABB,8000,30,1.53706e-10,no
+rango_5pct,desordenados,ABB,9000,30,0.000314842,no
+rango_5pct,desordenados,ABB,10000,30,1.27599e-08,no
+rango_5pct,desordenados,ABB,11000,30,1.1339e-07,no
+rango_5pct,desordenados,ABB,12000,30,1.58016e-07,no
+rango_5pct,desordenados,ABB,13000,30,5.902e-06,no
+rango_5pct,desordenados,ABB,14000,30,1.03567e-05,no
+rango_5pct,desordenados,ABB,15000,30,2.97879e-07,no
+rango_5pct,desordenados,ABB,16000,30,6.82746e-06,no
+rango_5pct,desordenados,ABB,17000,30,1.951e-07,no
+rango_5pct,desordenados,ABB,18000,30,1.17839e-08,no
+rango_5pct,desordenados,ABB,19000,30,0.0205725,no
+rango_5pct,desordenados,ABB,20000,30,0.000282361,no
+rango_5pct,desordenados,B+,5000,30,4.04745e-05,no
+rango_5pct,desordenados,B+,6000,30,6.41044e-10,no
+rango_5pct,desordenados,B+,7000,30,7.48974e-08,no
+rango_5pct,desordenados,B+,8000,30,1.2362e-06,no
+rango_5pct,desordenados,B+,9000,30,0.000970518,no
+rango_5pct,desordenados,B+,10000,30,9.82878e-06,no
+rango_5pct,desordenados,B+,11000,30,2.46349e-08,no
+rango_5pct,desordenados,B+,12000,30,0.000231098,no
+rango_5pct,desordenados,B+,13000,30,0.000197966,no
+rango_5pct,desordenados,B+,14000,30,1.68921e-06,no
+rango_5pct,desordenados,B+,15000,30,1.38921e-07,no
+rango_5pct,desordenados,B+,16000,30,2.63697e-08,no
+rango_5pct,desordenados,B+,17000,30,2.31086e-07,no
+rango_5pct,desordenados,B+,18000,30,0.000219852,no
+rango_5pct,desordenados,B+,19000,30,1.02405e-05,no
+rango_5pct,desordenados,B+,20000,30,0.000293287,no
+rango_5pct,desordenados,Lista nativa,5000,30,0.0400436,no
+rango_5pct,desordenados,Lista nativa,6000,30,0.00166499,no
+rango_5pct,desordenados,Lista nativa,7000,30,0.00183667,no
+rango_5pct,desordenados,Lista nativa,8000,30,3.45449e-06,no
+rango_5pct,desordenados,Lista nativa,9000,30,9.71822e-06,no
+rango_5pct,desordenados,Lista nativa,10000,30,3.30224e-07,no
+rango_5pct,desordenados,Lista nativa,11000,30,0.00153578,no
+rango_5pct,desordenados,Lista nativa,12000,30,1.94174e-08,no
+rango_5pct,desordenados,Lista nativa,13000,30,0.18448,si
+rango_5pct,desordenados,Lista nativa,14000,30,0.000105072,no
+rango_5pct,desordenados,Lista nativa,15000,30,0.0103176,no
+rango_5pct,desordenados,Lista nativa,16000,30,8.91148e-05,no
+rango_5pct,desordenados,Lista nativa,17000,30,0.00201024,no
+rango_5pct,desordenados,Lista nativa,18000,30,0.000118302,no
+rango_5pct,desordenados,Lista nativa,19000,30,0.100278,si
+rango_5pct,desordenados,Lista nativa,20000,30,1.79681e-08,no
+rango_5pct,ordenados,ABB,5000,30,0.00237484,no
+rango_5pct,ordenados,ABB,6000,30,1.78989e-08,no
+rango_5pct,ordenados,ABB,7000,30,3.02382e-07,no
+rango_5pct,ordenados,ABB,8000,30,9.74531e-05,no
+rango_5pct,ordenados,ABB,9000,30,0.00259691,no
+rango_5pct,ordenados,ABB,10000,30,1.87605e-06,no
+rango_5pct,ordenados,ABB,11000,30,0.00106241,no
+rango_5pct,ordenados,ABB,12000,30,0.0682533,si
+rango_5pct,ordenados,ABB,13000,30,0.00741436,no
+rango_5pct,ordenados,ABB,14000,30,0.0074785,no
+rango_5pct,ordenados,ABB,15000,30,0.138398,si
+rango_5pct,ordenados,ABB,16000,30,0.0722669,si
+rango_5pct,ordenados,ABB,17000,30,0.00257116,no
+rango_5pct,ordenados,ABB,18000,30,0.00449964,no
+rango_5pct,ordenados,ABB,19000,30,0.00170373,no
+rango_5pct,ordenados,ABB,20000,30,0.0128618,no
+rango_5pct,ordenados,B+,5000,30,0.0424326,no
+rango_5pct,ordenados,B+,6000,30,0.000112687,no
+rango_5pct,ordenados,B+,7000,30,6.33451e-10,no
+rango_5pct,ordenados,B+,8000,30,0.0196446,no
+rango_5pct,ordenados,B+,9000,30,6.64908e-09,no
+rango_5pct,ordenados,B+,10000,30,0.00307385,no
+rango_5pct,ordenados,B+,11000,30,4.84157e-09,no
+rango_5pct,ordenados,B+,12000,30,0.159516,si
+rango_5pct,ordenados,B+,13000,30,0.00379665,no
+rango_5pct,ordenados,B+,14000,30,0.000517399,no
+rango_5pct,ordenados,B+,15000,30,9.39168e-08,no
+rango_5pct,ordenados,B+,16000,30,3.65618e-08,no
+rango_5pct,ordenados,B+,17000,30,3.7203e-05,no
+rango_5pct,ordenados,B+,18000,30,5.36157e-05,no
+rango_5pct,ordenados,B+,19000,30,1.8004e-09,no
+rango_5pct,ordenados,B+,20000,30,7.25866e-10,no
+rango_5pct,ordenados,Lista nativa,5000,30,0.00673902,no
+rango_5pct,ordenados,Lista nativa,6000,30,0.000107593,no
+rango_5pct,ordenados,Lista nativa,7000,30,4.38057e-07,no
+rango_5pct,ordenados,Lista nativa,8000,30,1.23489e-07,no
+rango_5pct,ordenados,Lista nativa,9000,30,0.00011185,no
+rango_5pct,ordenados,Lista nativa,10000,30,3.14724e-06,no
+rango_5pct,ordenados,Lista nativa,11000,30,0.000196153,no
+rango_5pct,ordenados,Lista nativa,12000,30,2.13977e-07,no
+rango_5pct,ordenados,Lista nativa,13000,30,0.000702509,no
+rango_5pct,ordenados,Lista nativa,14000,30,0.000166564,no
+rango_5pct,ordenados,Lista nativa,15000,30,8.27415e-06,no
+rango_5pct,ordenados,Lista nativa,16000,30,0.00750591,no
+rango_5pct,ordenados,Lista nativa,17000,30,0.00525468,no
+rango_5pct,ordenados,Lista nativa,18000,30,0.00627374,no
+rango_5pct,ordenados,Lista nativa,19000,30,0.000387864,no
+rango_5pct,ordenados,Lista nativa,20000,30,0.00252561,no
