@@ -1,8 +1,8 @@
-import bisect
+import bisect #Para busqueda binaria en c
 class NodoBPlus:
     def __init__(self, es_hoja=False):
         self.es_hoja = es_hoja
-        self.claves = []  # Lista de IDs (solo llaves para navegación)
+        self.claves = []  # Lista de ID (solo llaves para navegación)
         self.punteros = []  # Nodos hijos (si es interno) OR Punteros a Datos (si es hoja)
         self.siguiente = None  # Puntero al siguiente nodo hoja enlazado
 
@@ -16,12 +16,12 @@ class ArbolBPlus:
         """Devuelve el PUNTERO al registro del estudiante, no el nodo."""
         actual = self.raiz
 
-        # 1. Navegar por los nodos internos usando bisect_right en C
+        #Navegar por los nodos internos usando bisect_right en c
         while not actual.es_hoja:
             i = bisect.bisect_right(actual.claves, id_estudiante)
             actual = actual.punteros[i]
 
-        # 2. En la hoja, ubicar la clave en O(log K) con bisect_left
+        # En la hoja, ubicar la clave con bisect_left
         i = bisect.bisect_left(actual.claves, id_estudiante)
         if i < len(actual.claves) and actual.claves[i] == id_estudiante:
             return actual.punteros[i]  # Devuelve la referencia al dato externo

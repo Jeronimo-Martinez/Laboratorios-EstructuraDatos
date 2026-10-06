@@ -15,7 +15,7 @@ class ArbolABB:
         if self.raiz is None:
             self.raiz = nuevo_nodo
         else:
-            self._insertar_recursivo(self.raiz, nuevo_nodo)
+            self._insertar_recursivo(self.raiz, nuevo_nodo) #baja el arbol recursivamente hasta encontrar una posición valida
 
     def _insertar_recursivo(self, actual, nuevo_nodo):
         if nuevo_nodo.id < actual.id:
@@ -30,7 +30,6 @@ class ArbolABB:
                 self._insertar_recursivo(actual.derecho, nuevo_nodo)
 
     def buscar(self, id_estudiante):
-        """Busca un estudiante por su ID en O(log N) promedio"""
         return self._buscar_recursivo(self.raiz, id_estudiante)
 
     def _buscar_recursivo(self, actual, id_estudiante):
@@ -43,7 +42,7 @@ class ArbolABB:
             return self._buscar_recursivo(actual.derecho, id_estudiante)
 
     def listar_en_orden(self):
-        """Retorna todos los estudiantes ordenados por ID (Recorrido Inorden)"""
+        # Retorna todos los estudiantes ordenados por ID (Recorrido Inorden) der -> raiz -> izq
         estudiantes_ordenados = []
         self._inorden_recursivo(self.raiz, estudiantes_ordenados)
         return estudiantes_ordenados
@@ -55,8 +54,8 @@ class ArbolABB:
             self._inorden_recursivo(actual.derecho, resultado)
 
     def buscar_rango(self, id_min, id_max):
-        """Retorna los estudiantes con id_min <= id <= id_max, ordenados por ID.
-        Inorden con poda: solo visita subarboles que pueden contener ids del rango."""
+        # Retorna los estudiantes con id_min <= id <= id_max, ordenados por ID.
+
         resultado = []
         self._rango_recursivo(self.raiz, id_min, id_max, resultado)
         return resultado
