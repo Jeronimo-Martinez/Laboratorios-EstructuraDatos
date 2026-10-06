@@ -27,7 +27,7 @@ matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 
 # Un solo limite de recursion (ABB degenerado con datos ordenados)
-sys.setrecursionlimit(200000)
+sys.setrecursionlimit(2000000)
 
 from ArboolABB import ArbolABB
 from ArbolBplus import ArbolBPlus
@@ -540,6 +540,7 @@ def imprimir_resumen(tamanos, res):
 
 if __name__ == "__main__":
     print(f"CONFIG: {CONFIG}")
+    inicio_total = time.perf_counter()
     tamanos, res = ejecutar()
     exportar(tamanos, res)
     graficar(tamanos, res)
@@ -547,3 +548,5 @@ if __name__ == "__main__":
     n_fijo, Ms, resM = ejecutar_variando_M()
     graficar_variando_M(n_fijo, Ms, resM)
     imprimir_resumen(tamanos, res)
+    fin_total = time.perf_counter()
+    print(f"Tiempo de ejecucion total: {fin_total - inicio_total:.2f} segundos")
