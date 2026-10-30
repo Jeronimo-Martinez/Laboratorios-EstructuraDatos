@@ -88,7 +88,7 @@ class QuadTree:
         if not nodo.es_hoja():
             hijo  =  nodo.hijos[nodo.region.cuadrante(punto)]
             self._insertar(hijo,punto,profundidad +1)
-        elif len(self.raiz.puntos) < self.capacidad or profundidad > self.profundidad_max:
+        elif len(nodo.puntos) < self.capacidad or profundidad > self.profundidad_max:
             nodo.puntos.append(punto)
         else:
             nodo.subdividir()
@@ -124,7 +124,7 @@ class QuadTree:
         if nodo.region.distancia_min(punto) > limite:
             return
 
-        if nodo.es_hoja:
+        if nodo.es_hoja():
             for p in nodo.puntos:
                 d = punto.distancia_punto(p)
                 if len(candidatos) < k or d < candidatos[-1][0]:
