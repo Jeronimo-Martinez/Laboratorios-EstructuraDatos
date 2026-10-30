@@ -18,14 +18,6 @@ El Quadtree gana porque **poda regiones enteras**: si la región de un nodo no t
 un conjunto de puntos casi idénticos, que obliga a profundizar sin dividir el espacio; la profundidad máxima 
 evita la recursión infinita, pero esa hoja se recorrería de forma lineal.
 
-### ***Explicación archivos***
-
-- ***generar_estudiantes.py***: genera `n` estudiantes con ids únicos .
-- ***ArboolABB.py***, ***ArbolBplus.py*** : Algoritmos implementados para el arbol ABB y B+ respectivamente.
-- ***Experimentos.py***: ejecuta los experimentos y exporta los resultados.
-- ***test_normalidad.py*** : test de Shapiro-Wilk sobre las repeticiones. Justifica el uso de mediana sobre media para el analisis.
-- ***Resultados*** — CSV y gráficas generadas.
-- ***PruebaN***` — muestras crudas + resultado del test de normalidad.
 
 ### ***Explicación archivos***
  
